@@ -1,0 +1,139 @@
+<!doctype html>
+
+<!-- gym themed bg -->
+
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Register GYM-Up</title>
+    <style>
+        body {
+            background: url('p4.jpg') center/cover no-repeat fixed;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        img.logo {
+            width: 100px;
+            height: 70px;
+            border-radius: 20%;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #fff;
+            margin: 10px 0;
+            font-size: 24px;
+        }
+
+        hr {
+            width: 80%;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border: 1px solid #333;
+        }
+
+        h2 {
+            font-style: italic;
+            text-align: center;
+            color: #aaa;
+        }
+
+        p {
+            text-align: center;
+            color: #ccc;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 15px;
+            color: #aaa;
+            font-size: 14px;
+        }
+
+        input {
+            width: 100%;
+            padding: 15px;
+            box-sizing: border-box;
+            border: none;
+            border-bottom: 2px solid #fff;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            margin-bottom: 20px;
+            font-size: 16px;
+        }
+
+        input[type="submit"] {
+            background-color: #ff0000;
+            color: #fff;
+            cursor: pointer;
+            padding: 15px;
+            width: 100%;
+            box-sizing: border-box;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+
+    
+    <div class="container">
+        
+        <img class="logo" alt="GYM-Up" src="logojpg.jpg">
+        <h1>GYM-Up</h1>
+        <hr>
+        <h2>       Your Ultimate Fitness Partner         </h2>
+        <p>Please Enter your<strong> Account Details</strong> </p>
+            <form method="POST" action="loginafterregister.html">
+
+            <p>
+                <label for="fname"></label>
+                <input id ="fname" name="fname" placeholder="Name" type="text" />
+
+                <label for="email"></label>
+                <input id ="email" name="email" placeholder="Email" type="text" />
+                
+                <label for="password"></label>
+                <input id ="password" name="password" placeholder="Password" type="password" />             
+
+
+                <!--               
+                    <label for="email"><b></b></label>
+                    <input name="id" id="mid" placeholder="Email" required="" type="text">
+                    <label for="psw"></label>
+                    <input name="psw" id="psw" placeholder="Password" required="" type="password">
+                    <input type="submit" name="save" value="Login">
+                </form> -->
+
+
+
+                <input  name="save" type="submit" value="Save">
+            </p>
+        </form>
+
+    </div>
